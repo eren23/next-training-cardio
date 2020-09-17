@@ -19,13 +19,8 @@ export const Header = () => (
                 </Link>
             </li>
             <li>
-                <Link as="/post/1" href="/post/[id]">
-                    <a>First Blog Post</a>
-                </Link>
-            </li>
-            <li>
-                <Link as="/post/2" href="/post/[id]">
-                    <a>Second Blog Post</a>
+                <Link href="/login">
+                    <a>Login</a>
                 </Link>
             </li>
         </ul>
